@@ -31,9 +31,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Election Management System] <a name="about-project"></a>
+# 📊Election Management System <a name="about-project"></a>
 
-**[Election Management System]** is an app where polling agents can manage election results and users can view live results
+**Election Management System** is an app where polling agents can manage election results and users can view live results
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -65,7 +65,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **Polling agents can log in to the system using their credentials to access certain features**
-- ** Polling Agents can View all records, add new record, edit and delete the records**
+- **Polling Agents can View all records, add new record, edit and delete the records**
 - **The application tracks votes for multiple political parties in each polling unit**
 - **Visitors can search for election results by entering the ID of a specific polling unit. The application retrieves and displays the results, including the total votes cast and the individual party-wise votes for that particular polling unit.**
 
@@ -75,7 +75,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://frantic-plum-blackbuck.cyclic.app/)
+- [Election Management System](https://frantic-plum-blackbuck.cyclic.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,9 +184,7 @@ If you like this project feel free to message me on twitter
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
+## ❓ FAQ <a name="faq"></a>
 
 - **How do I set up mongo db database with the app**
 
