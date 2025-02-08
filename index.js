@@ -1,4 +1,7 @@
+
 require("dotenv").config();
+console.log("MONGO_URI:", process.env.MONGO_URI);
+
 const express = require("express");
 
 const app = express();
@@ -9,9 +12,14 @@ const connectionOptions = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 };
+console.log("MONGO_URI:", process.env.MONGO_URI);
+if (!process.env.MONGO_URI) {
+  console.error("❌ MONGO_URI is not defined! Check your environment variables.");
+  process.exit(1);
+}
 
 //connect to mongodb and listen to requests
-mongoose.connect(process.env.DATABASE, connectionOptions);
+mongoose.connect(process.env.MONGO_URI, connectionOptions);
 const db = mongoose.connection;
 db.on("error", (error) => console.log(error));
 db.once("open", () => {
